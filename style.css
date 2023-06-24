@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Press Start 2P';
+    text-align: center;
+}
+
+.content {
+    max-width: 450px;
+    margin: auto;
+    margin-top: 3px;
+}
+
+.pager-box {
+    background: #283033;
+    color: #F8F8F8;
+    max-width: 420px;
+    max-height: 126px;
+    padding: 15px 0;
+    margin-bottom: 30px;
+
+}
+
+#pager-display {
+    background: #9EC4B3;
+    max-width: 368px;
+    height: 30px;
+    margin: auto;
+    margin-top: 0;
+    padding: 15px 0;
+    font-size: 25px;
+    color: #000;
+}
+
+h1 {
+    margin: 10px;
+}
+
+.phone-box {
+    background: #D9D9D9;
+    max-width: 420px;
+    max-height: 458px;
+    padding-top: 15px;
+}
+
+#phone-display {
+    background: #9EC4B3;
+    max-width: 368px;
+    height: 30px;
+    margin: auto;
+    margin-top: 0;
+    padding: 15px 0;
+    font-size: 25px;
+    color: #444444;
+    margin-bottom: 9px;
+}
+
+button {
+    font-family: 'Press Start 2P';
+}
+
+.digits {
+    width: 119px;
+    height: 47px;
+    background: #F8F8F8;
+    border: none;
+    margin: 3px;
+    transition-duration: 0.1s;
+    
+}
+
+.digits:hover {
+    background: #9CA3AF;
+}
+
+.action-buttons-container {
+    margin-top: 9px;
+}
+
+div.action-buttons-container button {
+    width: 376px;
+    height: 47px;
+    margin-bottom: 4.5px;
+    border: 2px solid #000;
+    transition-duration: 0.1s;
+}
+
+#reset-btn {
+    background: #BE482A;
+}
+
+#send-btn {
+    background: #3D9C7C;
+}
+
+#reset-btn:hover {
+    background: #923720;
+}
+
+#send-btn:hover {
+    background: #2c725b;
+}

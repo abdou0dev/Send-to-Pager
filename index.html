@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pager</title>
+    <link href='https://fonts.googleapis.com/css?family=Press Start 2P' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="content">
+
+        <header class="pager-box">
+            <h1>Pager</h1>
+            <p id="pager-display"></p>
+        </header>
+
+        <div class="phone-box">
+            <h1>Phone</h1>
+            <p id="phone-display"></p>
+
+            <div class="buttons-container">
+                <button class="digits" onclick="key1()">1</button>
+                <button class="digits" onclick="key2()">2</button>
+                <button class="digits" onclick="key3()">3</button>
+                <button class="digits" onclick="key4()">4</button>
+                <button class="digits" onclick="key5()">5</button>
+                <button class="digits" onclick="key6()">6</button>
+                <button class="digits" onclick="key7()">7</button>
+                <button class="digits" onclick="key8()">8</button>
+                <button class="digits" onclick="key9()">9</button>
+                <button class="digits" onclick="keyStar()">*</button>
+                <button class="digits" onclick="key0()">0</button>
+                <button class="digits" onclick="keyLine()">#</button>
+            </div>
+            <div class="action-buttons-container">
+                <button id="reset-btn" onclick="reset()">RESET</button>
+                <button id="send-btn" onclick="send()">SEND</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
