@@ -29,6 +29,10 @@ body {
     padding: 15px 0;
     font-size: 25px;
     color: #000;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
 }
 
 h1 {
@@ -40,6 +44,7 @@ h1 {
     max-width: 420px;
     max-height: 458px;
     padding-top: 15px;
+    
 }
 
 #phone-display {
@@ -52,6 +57,9 @@ h1 {
     font-size: 25px;
     color: #444444;
     margin-bottom: 9px;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 button {
@@ -77,7 +85,7 @@ button {
 }
 
 div.action-buttons-container button {
-    width: 376px;
+    width: 403px;
     height: 47px;
     margin-bottom: 4.5px;
     border: 2px solid #000;
